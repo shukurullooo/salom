@@ -13,10 +13,10 @@ const Header = () => {
   return (
     <>
     
-    <header className="bg-blue-500">
+    <header className="bg-white text-[#000]">
       <nav className="container mx-auto flex justify-between h-[80px] items-center text-white">
-        <h2 className="text-[22px] font-extrabold">SAMSUNG</h2>
-        <ul className="flex gap-6 collection">
+        <h2 className="text-[22px] font-extrabold text-[#000]">SAMSUNG</h2>
+        <ul className="flex gap-6 collection text-[#000] ">
           {LINKS?.map((link, index) => (
             <li key={index}>{link}</li>
           ))}
